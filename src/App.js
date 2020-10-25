@@ -5,7 +5,7 @@ import Navbar from "./components/NavBar";
 import { useAuth0 } from '@auth0/auth0-react';
 import { Alert } from 'react-bootstrap';
 
-function App() {
+const App = () => {
   const { isLoading } = useAuth0();
 
   if ( isLoading ) return <Alert variant='info'>We are loading your information...</Alert>

@@ -3,3 +3,14 @@
   margin: 0 auto;
   text-align: center;
 }
+
+body {
+  background-color: whitesmoke;
+}
+
+#userWelcome {
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 175px;
+  color: rgba(0,0,0,.75);
+}

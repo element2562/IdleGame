@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Form } from "react-bootstrap";
 import { useAuth0 } from "@auth0/auth0-react";
 const Login = () =>
@@ -9,8 +10,8 @@ const Login = () =>
             <Form>
                 <Form.Group>
                     <Form.Label>Login or create a new user to continue!</Form.Label>
-                    <Button variant="primary" onClick={() => loginWithRedirect()}>Login</Button>
                 </Form.Group>
+                    <Button variant="primary" onClick={() => loginWithRedirect()}>Login</Button>
             </Form>
         )
     )
